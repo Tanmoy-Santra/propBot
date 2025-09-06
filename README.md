@@ -1,4 +1,4 @@
-# [PropBot - Real Estate App](https://prop-bot-sand.vercel.app/
+# [PropBot - Real Estate App](https://prop-bot-sand.vercel.app/)
 
 PropBot is a responsive web application for exploring, buying, or renting properties. It's built with React, Vite, Firebase, and TailwindCSS, offering a smooth and intuitive user experience.
 
