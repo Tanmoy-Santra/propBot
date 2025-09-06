@@ -3,7 +3,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 import { ArrowRight, Menu, X } from "lucide-react";
 import { signOut } from "firebase/auth";
 import { auth } from "../services/firebase";
-import PropBotLogo from "./PropBotogo"; // import the logo
+import PropBotLogo from "./PropBotogo";
 
 const Navbar = ({ user }) => {
   const navigate = useNavigate();
@@ -24,9 +24,8 @@ const Navbar = ({ user }) => {
 
   return (
     <nav className="w-full flex items-center justify-between px-6 md:px-8 py-4 relative">
-      
       <div className="flex items-center gap-2">
-        <PropBotLogo /> {/* replaced inline SVG */}
+        <PropBotLogo />
         <span className="text-[25px] font-bold text-[#1E1E1E]">PropBot</span>
       </div>
 

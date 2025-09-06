@@ -1,5 +1,5 @@
 import React from "react";
-import PropBotLogo from "./PropBotogo"; // import the logo component
+import PropBotLogo from "./PropBotogo";
 
 const Footer = () => {
   return (
@@ -33,10 +33,18 @@ const Footer = () => {
           </div>
 
           <div className="flex gap-6 mb-4 md:mb-0">
-            <a href="#" className="hover:text-white">For Sale</a>
-            <a href="#" className="hover:text-white">Rentals</a>
-            <a href="#" className="hover:text-white">New Projects</a>
-            <a href="#" className="hover:text-white">Property News</a>
+            <a href="#" className="hover:text-white">
+              For Sale
+            </a>
+            <a href="#" className="hover:text-white">
+              Rentals
+            </a>
+            <a href="#" className="hover:text-white">
+              New Projects
+            </a>
+            <a href="#" className="hover:text-white">
+              Property News
+            </a>
           </div>
 
           <div>@2025 PropBot. All rights reserved</div>

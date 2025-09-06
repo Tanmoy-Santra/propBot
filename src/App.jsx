@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import { onAuthStateChanged } from "firebase/auth";
@@ -32,7 +31,6 @@ const App = () => {
 
   return (
     <Routes>
-      {/* Layout pages with Navbar + Footer */}
       <Route element={<Layout user={user} />}>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
@@ -43,7 +41,6 @@ const App = () => {
         <Route path="/rent" element={<Rent />} />
       </Route>
 
-      {/* Auth pages (no footer/navbar from layout) */}
       <Route path="/signup" element={<SignupPage />} />
       <Route path="/login" element={<LoginPage />} />
     </Routes>

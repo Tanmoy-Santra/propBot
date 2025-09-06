@@ -9,7 +9,7 @@ const StartYourJourney = () => {
      
       <div className="w-full border-b border-blue-200">
         <div className="max-w-6xl mx-auto py-10 px-4">
-          {/* Heading */}
+          
           <h2 className="text-2xl md:text-3xl font-bold text-[#1E3A8A]">
             Start Your Journey Today!
           </h2>
@@ -48,7 +48,7 @@ const StartYourJourney = () => {
       </div>
 
       <div className="max-w-6xl mx-auto py-16 px-4 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        {/* Images */}
+        
         <div className="relative flex justify-center md:justify-start">
           <img
             src={StartYourJourney1}
@@ -62,7 +62,7 @@ const StartYourJourney = () => {
           />
         </div>
 
-        {/* Features */}
+       
         <div>
           <h3 className="text-2xl md:text-3xl font-bold text-[#1E3A8A] mb-6">
             We Provide Latest Properties <br /> For Our Valuable Clients

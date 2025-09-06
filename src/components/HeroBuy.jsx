@@ -30,7 +30,10 @@ const HeroBuy = () => {
             <option>For Rent</option>
             <option>For Sale</option>
           </select>
-          <ChevronDown className="absolute right-3 text-[#1E3A8A] pointer-events-none" size={18} />
+          <ChevronDown
+            className="absolute right-3 text-[#1E3A8A] pointer-events-none"
+            size={18}
+          />
         </div>
 
         <div className="relative flex items-center w-full sm:w-auto">
@@ -40,7 +43,10 @@ const HeroBuy = () => {
             <option>Apartment</option>
             <option>Land</option>
           </select>
-          <ChevronDown className="absolute right-3 text-[#1E3A8A] pointer-events-none" size={18} />
+          <ChevronDown
+            className="absolute right-3 text-[#1E3A8A] pointer-events-none"
+            size={18}
+          />
         </div>
 
         <div className="relative flex items-center w-full sm:w-auto">
@@ -50,7 +56,10 @@ const HeroBuy = () => {
             <option>India</option>
             <option>USA</option>
           </select>
-          <ChevronDown className="absolute right-3 text-[#1E3A8A] pointer-events-none" size={18} />
+          <ChevronDown
+            className="absolute right-3 text-[#1E3A8A] pointer-events-none"
+            size={18}
+          />
         </div>
 
         <button className="bg-[#1E3A8A] text-white px-6 py-3 rounded-full font-medium hover:bg-[#162c6a] transition w-full sm:w-auto">

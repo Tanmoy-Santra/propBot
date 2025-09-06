@@ -1,11 +1,11 @@
-import React from 'react';
-import FeaturePropertyBuy from '../components/FeaturePropertyBuy';
-import HeroBuy from '../components/HeroBuy';
+import React from "react";
+import FeaturePropertyBuy from "../components/FeaturePropertyBuy";
+import HeroBuy from "../components/HeroBuy";
 
 const Buy = () => {
   return (
     <>
-      <HeroBuy/>
+      <HeroBuy />
       <FeaturePropertyBuy />
     </>
   );

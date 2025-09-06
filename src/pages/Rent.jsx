@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Rent = () => {
-  return (
-    <div>
-      rent
-    </div>
-  )
-}
+  return <div>rent</div>;
+};
 
-export default Rent
+export default Rent;

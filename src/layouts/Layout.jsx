@@ -3,13 +3,13 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { Outlet } from "react-router-dom";
 
-const Layout = ({user}) => {
+const Layout = ({ user }) => {
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar  user={user}/>      
+      <Navbar user={user} />
       <main className="flex-1">
         <Outlet />
-      </main>      
+      </main>
       <Footer />
     </div>
   );
