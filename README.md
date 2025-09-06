@@ -1,4 +1,4 @@
-# PropBot - Real Estate App
+# [PropBot - Real Estate App](https://prop-bot-sand.vercel.app/
 
 PropBot is a responsive web application for exploring, buying, or renting properties. It's built with React, Vite, Firebase, and TailwindCSS, offering a smooth and intuitive user experience.
 
@@ -47,7 +47,6 @@ cd propbot
 ```
 ### 2. Install dependencies
 ```bash
-Copy code
 npm install
 ```
 ### 3. Set up environment variables
@@ -79,30 +78,27 @@ The app will now be available at http://localhost:5173.
 
 ### Screenshots
 - Featured Properties / Hero Section
+  
   ![Image](https://github.com/user-attachments/assets/0896199a-039b-47c8-97b0-f02097476266)
 
-![Image](https://github.com/user-attachments/assets/cee74a7b-d5c9-48a6-be8a-cfd0e848198a)
+  ![Image](https://github.com/user-attachments/assets/cee74a7b-d5c9-48a6-be8a-cfd0e848198a)
 
-![Image](https://github.com/user-attachments/assets/ed5bda2b-528a-4937-a370-930199b918b0)
+  ![Image](https://github.com/user-attachments/assets/ed5bda2b-528a-4937-a370-930199b918b0)
 
 - Login Page
-![Image](https://github.com/user-attachments/assets/763da3fc-c786-469d-ab1d-3c4a0f5743ad)
+  
+  ![Image](https://github.com/user-attachments/assets/763da3fc-c786-469d-ab1d-3c4a0f5743ad)
 
 - Signup Page
-![Image](https://github.com/user-attachments/assets/d0be7138-a16f-4972-91d3-d5e8b9d7cb69)
+  
+  ![Image](https://github.com/user-attachments/assets/d0be7138-a16f-4972-91d3-d5e8b9d7cb69)
 
 
 ### Live URL
-You can view the live application here
-```
-https://prop-bot-sand.vercel.app/
-```
+You can view the live application here - https://prop-bot-sand.vercel.app/
+
 ### Demo Video
-Watch the demo video here:
-Google Drive Link - 
-```
-https://drive.google.com/file/d/1nO30K-LTSDoVkw3K4dbJPM-8DnIr9C-H/view?usp=sharing
-```
+Watch the demo video here: Google Drive Link - https://drive.google.com/file/d/1nO30K-LTSDoVkw3K4dbJPM-8DnIr9C-H/view?usp=sharing
 
 ### License
 This project is licensed under the MIT License.
